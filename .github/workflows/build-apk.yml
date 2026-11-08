@@ -17,7 +17,7 @@ jobs:
           java-version: '17'
 
       - name: Extract project
-        run: unzip -o PersonalAssistantAndroid_source_v1_2.zip -d source
+        run: unzip -o PersonalAssistantAndroid_Full_Project.zip -d source 
 
       - name: Fix Java and Kotlin versions
         run: |
